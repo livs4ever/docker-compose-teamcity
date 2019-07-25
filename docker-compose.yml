@@ -27,7 +27,7 @@ services:
     volumes:
       - ./database_dir:/var/lib/mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: teamcity
     networks:
       containers_network:
